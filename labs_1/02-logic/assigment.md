@@ -20,7 +20,7 @@
 
 1. Listing of VHDL stimulus process from testbench file (`testbench.vhd`) with at least one assert :
 
-   Last two digits of my student ID: **xsando03**
+   Last two digits of my student ID: **xxx67x**
 
 ```vhdl
     p_stimulus : process
@@ -29,15 +29,15 @@
         report "Stimulus process started" severity note;
 
         -- First test case
-        s_b <= "0000"; -- Such as "0000" if ID = xxxx03
-        s_a <= "1100"; -- Such as "1100" if ID = xxxx03
+        s_b <= "0110"; -- 6
+        s_a <= "0111"; -- 7
         wait for 100 ns;
         -- Expected output
         assert ((s_B_greater_A = '0') and
                 (s_B_equals_A  = '0') and
                 (s_B_less_A    = '1'))
         -- If false, then report an error
-        report "Input combination 0000, 1100 FAILED" severity error;  
+        report "Input combination 0110, 0111 FAILED" severity error;  
 
         -- Report a note at the end of stimulus process
         report "Stimulus process finished" severity note;
