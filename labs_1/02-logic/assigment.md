@@ -20,7 +20,7 @@
 
 1. Listing of VHDL stimulus process from testbench file (`testbench.vhd`) with at least one assert :
 
-   Last two digits of my student ID: **xxx67x**
+   Last two digits of my student ID: **xxx67**
 
 ```vhdl
     p_stimulus : process
