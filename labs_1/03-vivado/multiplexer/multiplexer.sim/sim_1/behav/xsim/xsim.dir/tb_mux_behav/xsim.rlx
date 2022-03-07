@@ -1,11 +1,11 @@
 
 { 
-    crc :  16934268254289262134  , 
+    crc :  6146400872304951798  , 
     ccp_crc :  0  , 
-    cmdline : " -wto f7b2344bb5594e82a3e0fac229fc34a1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_mux_behav xil_defaultlib.tb_mux" , 
-    buildDate : "May 27 2020" , 
-    buildTime : "20:09:33" , 
-    linkCmd : "C:\\APPZ\\Xilinx\\Vivado\\2020.1\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/tb_mux_behav/xsimk.exe\"   \"xsim.dir/tb_mux_behav/obj/xsim_0.win64.obj\" \"xsim.dir/tb_mux_behav/obj/xsim_1.win64.obj\" -L\"C:\\APPZ\\Xilinx\\Vivado\\2020.1\\lib\\win64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    cmdline : " --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_mux_behav xil_defaultlib.tb_mux" , 
+    buildDate : "Oct 19 2021" , 
+    buildTime : "03:16:22" , 
+    linkCmd : "D:\\Vivado\\Vivado\\2021.2\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/tb_mux_behav/xsimk.exe\"   \"xsim.dir/tb_mux_behav/obj/xsim_0.win64.obj\" \"xsim.dir/tb_mux_behav/obj/xsim_1.win64.obj\" -L\"D:\\Vivado\\Vivado\\2021.2\\lib\\win64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
     aggregate_nets : 
     [ 
     ] 

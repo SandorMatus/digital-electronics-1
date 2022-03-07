@@ -1,76 +1,73 @@
-LIBRARY ieee;
-USE ieee.std_logic_1164.ALL;
- 
-ENTITY tb_mux IS
-END tb_mux;
- 
-ARCHITECTURE behavior OF tb_mux IS
- 
-    -- Component Declaration for the Unit Under Test (UUT)
- 
-    COMPONENT mux_4to1
-    PORT(
-         A : IN  std_logic;
-         B : IN  std_logic;
-         C : IN  std_logic;
-         D : IN  std_logic;
-         S0 : IN  std_logic;
-         S1 : IN  std_logic;
-         Z : OUT  std_logic
+library ieee;
+use ieee.std_logic_1164.ALL;
+
+------------------------------------------------------------
+-- Entity declaration for testbench
+------------------------------------------------------------
+entity tb_mux_3bit_4to1 is
+    -- Entity of testbench is always empty
+end entity tb_mux_3bit_4to1;
+
+------------------------------------------------------------
+-- Architecture body for testbench
+------------------------------------------------------------
+architecture testbench of tb_mux_3bit_4to1 is
+
+    -- Local signals
+    signal s_a           : std_logic_vector(3 - 1 downto 0);
+    signal s_b           : std_logic_vector(3 - 1 downto 0);
+    signal s_c           : std_logic_vector(3 - 1 downto 0);
+    signal s_d           : std_logic_vector(3 - 1 downto 0);
+    signal s_sel       	 : std_logic_vector(2 - 1 downto 0);
+    signal s_f         	 : std_logic_vector(3 - 1 downto 0);
+
+begin
+    -- Connecting testbench signals with mux_3bit_4to1
+    -- entity (Unit Under Test)
+    uut_mux_3bit_4to1 : entity work.mux_3bit_4to1
+        port map(
+            a_i      => s_a,
+            b_i      => s_b,
+            c_i      => s_c,
+            d_i      => s_d,
+            sel_i    => s_sel,
+            f_o      => s_f
         );
-    END COMPONENT;
- 
-   -- Inputs
-   signal A : std_logic := '0';
-   signal B : std_logic := '0';
-   signal C : std_logic := '0';
-   signal D : std_logic := '0';
-   signal S0 : std_logic := '0';
-   signal S1 : std_logic := '0';
- 
-    --Outputs
-   signal Z : std_logic;
- 
-BEGIN
- 
-     -- Instantiate the Unit Under Test (UUT)
-   uut: mux_4to1 PORT MAP (
-          A => A,
-          B => B,
-          C => C,
-          D => D,
-          S0 => S0,
-          S1 => S1,
-          Z => Z
-        );
- 
-   -- Stimulus process
-   stim_proc: process
-   begin
-   -- hold reset state for 100 ns.
-      wait for 100 ns; 
- 
-    A <= '1';
-    B <= '0';
-    C <= '1';
-    D <= '0';       
- 
-    S0 <= '0'; S1 <= '0';
- 
-      wait for 100 ns; 
- 
-    S0 <= '1'; S1 <= '0';
- 
-      wait for 100 ns; 
- 
-    S0 <= '0'; S1 <= '1';
- 
-        wait for 100 ns;   
- 
-    S0 <= '0'; S1 <= '1';  
- 
-        wait for 100 ns;   
- 
-    end process;
- 
-END;
+
+    --------------------------------------------------------
+    -- Data generation process
+    --------------------------------------------------------
+    p_stimulus : process
+    begin
+       -- Set one test case and wait 100 ns
+       	s_d		<= "000";
+        s_c 	<= "101"; 
+        s_b 	<= "110"; 
+        s_a 	<= "111";
+        s_sel 	<= "00";
+        wait for 100 ns;
+        
+        s_d		<= "010";
+        s_c 	<= "111"; 
+        s_b 	<= "010"; 
+        s_a 	<= "101";
+        s_sel 	<= "01";
+        wait for 100 ns;
+        
+        s_d		<= "111";
+        s_c 	<= "001"; 
+        s_b 	<= "010"; 
+        s_a 	<= "000";
+        s_sel	<= "10";
+        wait for 100 ns;
+        
+        s_d		<= "011";
+        s_c 	<= "101"; 
+        s_b 	<= "111"; 
+        s_a 	<= "000";
+        s_sel	<= "11";
+        wait for 100 ns;
+        wait;
+    end process p_stimulus;
+
+end architecture testbench;

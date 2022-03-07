@@ -3,7 +3,7 @@
 # 
 # Vivado(TM)
 # runme.sh: a Vivado-generated Runs Script for UNIX
-# Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+# Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 # 
 
 echo "This script was generated under a different operating system."
@@ -11,9 +11,9 @@ echo "Please update the PATH and LD_LIBRARY_PATH variables below, before executi
 exit
 
 if [ -z "$PATH" ]; then
-  PATH=C:/APPZ/Xilinx/Vivado/2020.1/ids_lite/ISE/bin/nt64;C:/APPZ/Xilinx/Vivado/2020.1/ids_lite/ISE/lib/nt64:C:/APPZ/Xilinx/Vivado/2020.1/bin
+  PATH=D:/Vivado/Vivado/2021.2/ids_lite/ISE/bin/nt64;D:/Vivado/Vivado/2021.2/ids_lite/ISE/lib/nt64:D:/Vivado/Vivado/2021.2/bin
 else
-  PATH=C:/APPZ/Xilinx/Vivado/2020.1/ids_lite/ISE/bin/nt64;C:/APPZ/Xilinx/Vivado/2020.1/ids_lite/ISE/lib/nt64:C:/APPZ/Xilinx/Vivado/2020.1/bin:$PATH
+  PATH=D:/Vivado/Vivado/2021.2/ids_lite/ISE/bin/nt64;D:/Vivado/Vivado/2021.2/ids_lite/ISE/lib/nt64:D:/Vivado/Vivado/2021.2/bin:$PATH
 fi
 export PATH
 
@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='D:/Documents/multiplexer/multiplexer.runs/synth_1'
+HD_PWD='D:/2. rocnik 2. semester/DE1/cv/digital-electronics-1/labs_1/03-vivado/multiplexer/multiplexer.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -40,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log mux_4to1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source mux_4to1.tcl
+EAStep vivado -log mux_3bit_4to1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source mux_3bit_4to1.tcl
