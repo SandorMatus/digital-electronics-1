@@ -94,11 +94,11 @@ end process greater_less;
 
     -- Turn LED(7) on if input value is a power of two, ie 1, 2, 4, or 8
         power_of_two : process ( SW ) is
-  begin
-  if SW = "1000" OR SW = "0100" OR SW = "0010" OR SW = "0001" then
-    LED(7) <= '1' ;
-  else 
-    LED(7) <= '0';
-  end if ;
-end process power_of_two;
+         begin
+          if SW = "1000" OR SW = "0100" OR SW = "0010" OR SW = "0001" then
+          LED(7) <= '1' ;
+         else 
+           LED(7) <= '0';
+         end if ;
+        end process power_of_two;
    ```
