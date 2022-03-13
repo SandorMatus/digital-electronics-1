@@ -71,8 +71,8 @@
 ### LED(7:4) indicators
 
 1. Listing of LEDs(7:4) part of VHDL architecture from source file `top.vhd`. Try to write logic functions as simple as possible. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
-
-   ```vhdl
+2. 
+```vhdl
    --------------------------------------------------------------------
    -- Experiments on your own: LED(7:4) indicators
 
@@ -81,12 +81,12 @@
 
     -- Turn LED(5) on if input value is greater than "1001", ie 10, 11, 12, ...
     greater_less : process ( SW ) is
-  begin
-  if SW > "1010" then
+    begin
+    if SW > "1010" then
     LED(5) <= '1' ;
-  else
+    else
     LED(5) <= '0' ;
-  end if ;
+    end if ;
 end process greater_less;
 
     -- Turn LED(6) on if input value is odd, ie 1, 3, 5, ...
@@ -101,4 +101,4 @@ end process greater_less;
            LED(7) <= '0';
          end if ;
         end process power_of_two;
-   ```
+```
