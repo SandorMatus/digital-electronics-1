@@ -80,22 +80,22 @@
     LED(4) <= NOT( SW(0) OR SW(1) OR SW(2) OR SW(3));
 
     -- Turn LED(5) on if input value is greater than "1001", ie 10, 11, 12, ...
-    greater_less : process ( SW ) is
-    begin
-    if SW > "1010" then
-    LED(5) <= '1' ;
-    else
-    LED(5) <= '0' ;
-    end if ;
-end process greater_less;
+       greater_less : process ( SW ) is
+       begin
+        if SW > "1010" then
+         LED(5) <= '1' ;
+        else
+         LED(5) <= '0' ;
+        end if ;
+       end process greater_less;
 
     -- Turn LED(6) on if input value is odd, ie 1, 3, 5, ...
-    LED(6) <= SW(0);
+        LED(6) <= SW(0);
 
     -- Turn LED(7) on if input value is a power of two, ie 1, 2, 4, or 8
         power_of_two : process ( SW ) is
-         begin
-          if SW = "1000" OR SW = "0100" OR SW = "0010" OR SW = "0001" then
+        begin
+         if SW = "1000" OR SW = "0100" OR SW = "0010" OR SW = "0001" then
           LED(7) <= '1' ;
          else 
            LED(7) <= '0';
