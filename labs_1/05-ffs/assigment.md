@@ -22,7 +22,15 @@ begin
     begin
         if rising_edge(clk) then
 
-        -- WRITE YOUR CODE HERE
+            if (rst = '1') then
+                s_q <= '0';
+                
+            else
+                if (t = '1') then
+                    s_q <= not s_q;
+                else    
+                    s_q <= s_q;  
+                end if;
 
         end if;
     end process p_t_ff_rst;
@@ -35,7 +43,7 @@ end architecture Behavioral;
 
 2. Screenshot with simulated time waveforms. Try to simulate both flip-flops in a single testbench with a maximum duration of 200 ns, including reset. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
-   ![your figure]()
+   ![flip_flop](./flip_flop.jpg)
 
 ### Shift register
 
