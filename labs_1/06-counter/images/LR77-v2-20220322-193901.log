@@ -1,0 +1,66 @@
+2022-03-22 19:37:43 System log daemon started.
+2022-03-22 19:37:45 bard[643]: started
+2022-03-22 19:37:45 bard[643]: selectable backup routes:
+2022-03-22 19:37:45 bard[643]: "Mobile WAN"
+2022-03-22 19:37:45 bard[643]: "ETH0"
+2022-03-22 19:37:45 bard[643]: loading static routes definitions
+2022-03-22 19:37:45 bard[643]: updating static routes for all interfaces
+2022-03-22 19:37:46 dhcpcd[681]: read_config: fopen `/etc/dhcpcd.conf': No such file or directory
+2022-03-22 19:37:46 last message repeated 1 time
+2022-03-22 19:37:46 dhcpcd[681]: forked to background, child pid 694
+2022-03-22 19:37:46 dhcpcd[694]: eth0: waiting for carrier
+2022-03-22 19:37:47 hostapd: started
+2022-03-22 19:37:47 hostapd: rfkill: Cannot open RFKILL control device
+2022-03-22 19:37:48 dhcpcd[694]: eth0: carrier acquired
+2022-03-22 19:37:48 dhcpcd[694]: read_config: fopen `/etc/dhcpcd.conf': No such file or directory
+2022-03-22 19:37:48 hostapd: wlan0: interface state UNINITIALIZED-COUNTRY_UPDATE
+2022-03-22 19:37:49 hostapd: wlan0: interface state COUNTRY_UPDATE-HT_SCAN
+2022-03-22 19:37:49 dhcpcd[694]: eth0: soliciting a DHCP lease
+2022-03-22 19:37:49 dnsmasq[822]: started, version 2.85 cachesize 150
+2022-03-22 19:37:49 dnsmasq[822]: no servers found in /etc/resolv.conf, will retry
+2022-03-22 19:37:49 dnsmasq[822]: cleared cache
+2022-03-22 19:37:50 dhcpd-wlan0: Wrote 0 leases to leases file.
+2022-03-22 19:37:51 123: 123
+2022-03-22 19:37:51 webTermd[862]: started
+2022-03-22 19:37:51 hostapd: 20/40 MHz operation not permitted on channel pri=8 sec=4 based on overlapping BSSes
+2022-03-22 19:37:51 hostapd: Fallback to 20 MHz
+2022-03-22 19:37:52 hostapd: wlan0: interface state HT_SCAN-ENABLED
+2022-03-22 19:37:52 hostapd: wlan0: AP-ENABLED 
+2022-03-22 19:37:53 dhcpcd[694]: eth0: offered 147.229.192.187 from 147.229.190.143
+2022-03-22 19:37:53 dhcpcd[694]: eth0: ignoring offer of 147.229.192.187 from 147.229.191.143
+2022-03-22 19:37:53 dhcpcd[694]: eth0: probing address 147.229.192.187/22
+2022-03-22 19:37:55 hostapd: wlan0: STA 28:cd:c4:b7:d3:41 IEEE 802.11: authenticated
+2022-03-22 19:37:55 hostapd: wlan0: STA 28:cd:c4:b7:d3:41 IEEE 802.11: associated (aid 1)
+2022-03-22 19:37:55 hostapd: wlan0: AP-STA-CONNECTED 28:cd:c4:b7:d3:41
+2022-03-22 19:37:55 hostapd: wlan0: STA 28:cd:c4:b7:d3:41 RADIUS: starting accounting session 912F0DF813CFC644
+2022-03-22 19:37:55 hostapd: wlan0: STA 28:cd:c4:b7:d3:41 WPA: pairwise key handshake completed (RSN)
+2022-03-22 19:37:55 hostapd: wlan0: EAPOL-4WAY-HS-COMPLETED 28:cd:c4:b7:d3:41
+2022-03-22 19:37:55 dhcpd-wlan0: DHCPREQUEST for 10.0.0.101 from 28:cd:c4:b7:d3:41 via wlan0
+2022-03-22 19:37:55 dhcpd-wlan0: DHCPACK on 10.0.0.101 to 28:cd:c4:b7:d3:41 (b04-1018a) via wlan0
+2022-03-22 19:37:55 dhcpd-wlan0: DHCPREQUEST for 10.0.0.101 from 28:cd:c4:b7:d3:41 (b04-1018a) via wlan0
+2022-03-22 19:37:55 dhcpd-wlan0: DHCPACK on 10.0.0.101 to 28:cd:c4:b7:d3:41 (b04-1018a) via wlan0
+2022-03-22 19:37:59 dhcpcd[694]: eth0: leased 147.229.192.187 for 7200 seconds
+2022-03-22 19:37:59 dhcpcd[694]: eth0: adding route to 147.229.192.0/22
+2022-03-22 19:37:59 bard[643]: backup route selected: "ETH0"
+2022-03-22 19:38:00 bard[643]: script /etc/scripts/ip-up eth0 started
+2022-03-22 19:38:00 dyndnsd[983]: DynDNS daemon started
+2022-03-22 19:38:00 hostapd: wlan0: STA 0e:0e:6d:5f:e8:2a IEEE 802.11: authenticated
+2022-03-22 19:38:00 hostapd: wlan0: STA 0e:0e:6d:5f:e8:2a IEEE 802.11: associated (aid 2)
+2022-03-22 19:38:00 hostapd: wlan0: AP-STA-CONNECTED 0e:0e:6d:5f:e8:2a
+2022-03-22 19:38:00 hostapd: wlan0: STA 0e:0e:6d:5f:e8:2a RADIUS: starting accounting session 57DA751BA5DBC0F1
+2022-03-22 19:38:00 hostapd: wlan0: STA 0e:0e:6d:5f:e8:2a WPA: pairwise key handshake completed (RSN)
+2022-03-22 19:38:00 hostapd: wlan0: EAPOL-4WAY-HS-COMPLETED 0e:0e:6d:5f:e8:2a
+2022-03-22 19:38:01 dhcpd-wlan0: DHCPREQUEST for 10.0.0.100 from 0e:0e:6d:5f:e8:2a via wlan0
+2022-03-22 19:38:01 dhcpd-wlan0: DHCPACK on 10.0.0.100 to 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:38:01 dhcpd-wlan0: DHCPREQUEST for 10.0.0.100 from 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:38:01 dhcpd-wlan0: DHCPACK on 10.0.0.100 to 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:38:01 dnsmasq[822]: reading /etc/resolv.conf
+2022-03-22 19:38:01 dnsmasq[822]: using nameserver 147.229.191.143#53
+2022-03-22 19:38:01 dnsmasq[822]: using nameserver 147.229.190.143#53
+2022-03-22 19:38:01 bard[643]: script /etc/scripts/ip-up eth0 finished, status = 0x0
+2022-03-22 19:38:01 root: Up IPv4: starting script on interface eth0
+2022-03-22 19:38:01 root: Up IPv4: nameserver eth0 147.229.191.143
+2022-03-22 19:38:02 root: Up IPv4: gateway eth0 147.229.192.1
+2022-03-22 19:38:03 dnsmasq[822]: reading /etc/resolv.conf
+2022-03-22 19:38:03 dnsmasq[822]: using nameserver 147.229.191.143#53
+2022-03-22 19:38:22 https: user 'root' logged in from 10.0.0.101

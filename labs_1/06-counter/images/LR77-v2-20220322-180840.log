@@ -1,0 +1,84 @@
+2022-03-22 18:07:37 System log daemon started.
+2022-03-22 18:07:39 bard[645]: started
+2022-03-22 18:07:39 bard[645]: selectable backup routes:
+2022-03-22 18:07:39 bard[645]: "Mobile WAN"
+2022-03-22 18:07:39 bard[645]: "ETH0"
+2022-03-22 18:07:40 bard[645]: loading static routes definitions
+2022-03-22 18:07:40 bard[645]: updating static routes for all interfaces
+2022-03-22 18:07:41 dhcpcd[683]: read_config: fopen `/etc/dhcpcd.conf': No such file or directory
+2022-03-22 18:07:41 last message repeated 1 time
+2022-03-22 18:07:41 dhcpcd[683]: forked to background, child pid 696
+2022-03-22 18:07:41 dhcpcd[696]: eth0: waiting for carrier
+2022-03-22 18:07:41 hostapd: started
+2022-03-22 18:07:42 hostapd: rfkill: Cannot open RFKILL control device
+2022-03-22 18:07:43 dhcpcd[696]: eth0: carrier acquired
+2022-03-22 18:07:43 dhcpcd[696]: read_config: fopen `/etc/dhcpcd.conf': No such file or directory
+2022-03-22 18:07:43 hostapd: wlan0: interface state UNINITIALIZED-COUNTRY_UPDATE
+2022-03-22 18:07:43 hostapd: ACS: Automatic channel selection started, this may take a bit
+2022-03-22 18:07:43 hostapd: wlan0: interface state COUNTRY_UPDATE-ACS
+2022-03-22 18:07:43 hostapd: wlan0: ACS-STARTED 
+2022-03-22 18:07:44 dnsmasq[820]: started, version 2.85 cachesize 150
+2022-03-22 18:07:44 dnsmasq[820]: no servers found in /etc/resolv.conf, will retry
+2022-03-22 18:07:44 dnsmasq[820]: cleared cache
+2022-03-22 18:07:44 dhcpcd[696]: eth0: soliciting a DHCP lease
+2022-03-22 18:07:44 dhcpd-wlan0: Wrote 0 leases to leases file.
+2022-03-22 18:07:45 dhcpcd[696]: eth0: carrier lost
+2022-03-22 18:07:47 vpnportald[894]: started.
+2022-03-22 18:07:47 webTermd[895]: started
+2022-03-22 18:07:47 123: 123
+2022-03-22 18:07:48 vpnportald[894]: RM STATE: 1 (Getting CS IP). State counter: 0
+2022-03-22 18:07:48 dhcpcd[696]: eth0: carrier acquired
+2022-03-22 18:07:48 dhcpcd[696]: read_config: fopen `/etc/dhcpcd.conf': No such file or directory
+2022-03-22 18:07:49 dhcpcd[696]: eth0: soliciting a DHCP lease
+2022-03-22 18:07:53 hostapd: ACS: Survey is missing noise floor
+2022-03-22 18:07:53 last message repeated 4 times
+2022-03-22 18:07:53 hostapd: ACS: Channel 1 has insufficient survey data
+2022-03-22 18:07:53 hostapd: ACS: Survey is missing noise floor
+2022-03-22 18:07:53 last message repeated 4 times
+2022-03-22 18:07:53 hostapd: ACS: Channel 1 has insufficient survey data
+2022-03-22 18:07:53 hostapd: ACS: Survey is missing noise floor
+2022-03-22 18:07:53 last message repeated 4 times
+2022-03-22 18:07:53 hostapd: ACS: Channel 1 has insufficient survey data
+2022-03-22 18:07:53 hostapd: ACS: Survey is missing noise floor
+2022-03-22 18:07:53 last message repeated 4 times
+2022-03-22 18:07:53 hostapd: ACS: Channel 1 has insufficient survey data
+2022-03-22 18:07:53 hostapd: ACS: Survey is missing noise floor
+2022-03-22 18:07:53 last message repeated 4 times
+2022-03-22 18:07:53 hostapd: ACS: Channel 1 has insufficient survey data
+2022-03-22 18:07:53 hostapd: ACS: Survey is missing noise floor
+2022-03-22 18:07:53 last message repeated 4 times
+2022-03-22 18:07:53 hostapd: ACS: Channel 1 has insufficient survey data
+2022-03-22 18:07:53 hostapd: wlan0: ACS-COMPLETED freq=2412 channel=1
+2022-03-22 18:07:53 hostapd: wlan0: interface state ACS-HT_SCAN
+2022-03-22 18:07:54 dhcpcd[696]: eth0: offered 147.229.192.187 from 147.229.191.143
+2022-03-22 18:07:54 dhcpcd[696]: eth0: ignoring offer of 147.229.192.187 from 147.229.190.143
+2022-03-22 18:07:54 dhcpcd[696]: eth0: probing address 147.229.192.187/22
+2022-03-22 18:07:55 hostapd: 20/40 MHz operation not permitted on channel pri=1 sec=5 based on overlapping BSSes
+2022-03-22 18:07:55 hostapd: Fallback to 20 MHz
+2022-03-22 18:07:55 hostapd: wlan0: interface state HT_SCAN-ENABLED
+2022-03-22 18:07:55 hostapd: wlan0: AP-ENABLED 
+2022-03-22 18:07:59 dhcpcd[696]: eth0: leased 147.229.192.187 for 7200 seconds
+2022-03-22 18:07:59 dhcpcd[696]: eth0: adding route to 147.229.192.0/22
+2022-03-22 18:07:59 bard[645]: backup route selected: "ETH0"
+2022-03-22 18:07:59 bard[645]: script /etc/scripts/ip-up eth0 started
+2022-03-22 18:07:59 dyndnsd[1068]: DynDNS daemon started
+2022-03-22 18:08:00 dnsmasq[820]: reading /etc/resolv.conf
+2022-03-22 18:08:00 dnsmasq[820]: using nameserver 147.229.191.143#53
+2022-03-22 18:08:00 dnsmasq[820]: using nameserver 147.229.190.143#53
+2022-03-22 18:08:01 bard[645]: script /etc/scripts/ip-up eth0 finished, status = 0x0
+2022-03-22 18:08:01 root: Up IPv4: starting script on interface eth0
+2022-03-22 18:08:01 root: Up IPv4: nameserver eth0 147.229.191.143
+2022-03-22 18:08:01 root: Up IPv4: gateway eth0 147.229.192.1
+2022-03-22 18:08:01 hostapd: wlan0: STA 28:cd:c4:b7:d3:41 IEEE 802.11: authenticated
+2022-03-22 18:08:01 hostapd: wlan0: STA 28:cd:c4:b7:d3:41 IEEE 802.11: associated (aid 1)
+2022-03-22 18:08:01 hostapd: wlan0: AP-STA-CONNECTED 28:cd:c4:b7:d3:41
+2022-03-22 18:08:01 hostapd: wlan0: STA 28:cd:c4:b7:d3:41 RADIUS: starting accounting session DA5CA00EAEA0149D
+2022-03-22 18:08:01 hostapd: wlan0: STA 28:cd:c4:b7:d3:41 WPA: pairwise key handshake completed (RSN)
+2022-03-22 18:08:01 hostapd: wlan0: EAPOL-4WAY-HS-COMPLETED 28:cd:c4:b7:d3:41
+2022-03-22 18:08:01 dhcpd-wlan0: DHCPREQUEST for 10.0.0.101 from 28:cd:c4:b7:d3:41 via wlan0
+2022-03-22 18:08:01 dhcpd-wlan0: DHCPACK on 10.0.0.101 to 28:cd:c4:b7:d3:41 (b04-1018a) via wlan0
+2022-03-22 18:08:01 dhcpd-wlan0: DHCPREQUEST for 10.0.0.101 from 28:cd:c4:b7:d3:41 (b04-1018a) via wlan0
+2022-03-22 18:08:01 dhcpd-wlan0: DHCPACK on 10.0.0.101 to 28:cd:c4:b7:d3:41 (b04-1018a) via wlan0
+2022-03-22 18:08:02 dnsmasq[820]: reading /etc/resolv.conf
+2022-03-22 18:08:02 dnsmasq[820]: using nameserver 147.229.191.143#53
+2022-03-22 18:08:17 https: user 'root' logged in from 10.0.0.101

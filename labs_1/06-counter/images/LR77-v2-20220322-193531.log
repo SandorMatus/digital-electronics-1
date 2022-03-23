@@ -1,0 +1,201 @@
+2022-03-22 18:55:16 System log daemon started.
+2022-03-22 18:55:18 bard[643]: started
+2022-03-22 18:55:18 bard[643]: selectable backup routes:
+2022-03-22 18:55:18 bard[643]: "Mobile WAN"
+2022-03-22 18:55:18 bard[643]: "ETH0"
+2022-03-22 18:55:18 bard[643]: loading static routes definitions
+2022-03-22 18:55:18 bard[643]: updating static routes for all interfaces
+2022-03-22 18:55:19 dhcpcd[681]: read_config: fopen `/etc/dhcpcd.conf': No such file or directory
+2022-03-22 18:55:19 last message repeated 1 time
+2022-03-22 18:55:19 dhcpcd[681]: forked to background, child pid 694
+2022-03-22 18:55:19 dhcpcd[694]: eth0: waiting for carrier
+2022-03-22 18:55:20 hostapd: started
+2022-03-22 18:55:20 hostapd: rfkill: Cannot open RFKILL control device
+2022-03-22 18:55:21 dhcpcd[694]: eth0: carrier acquired
+2022-03-22 18:55:21 dhcpcd[694]: read_config: fopen `/etc/dhcpcd.conf': No such file or directory
+2022-03-22 18:55:21 hostapd: wlan0: interface state UNINITIALIZED-COUNTRY_UPDATE
+2022-03-22 18:55:21 hostapd: ACS: Automatic channel selection started, this may take a bit
+2022-03-22 18:55:22 hostapd: wlan0: interface state COUNTRY_UPDATE-ACS
+2022-03-22 18:55:22 hostapd: wlan0: ACS-STARTED 
+2022-03-22 18:55:22 dhcpcd[694]: eth0: soliciting a DHCP lease
+2022-03-22 18:55:22 dnsmasq[822]: started, version 2.85 cachesize 150
+2022-03-22 18:55:22 dnsmasq[822]: no servers found in /etc/resolv.conf, will retry
+2022-03-22 18:55:22 dnsmasq[822]: cleared cache
+2022-03-22 18:55:22 dhcpd-wlan0: Wrote 0 leases to leases file.
+2022-03-22 18:55:24 123: 123
+2022-03-22 18:55:24 webTermd[862]: started
+2022-03-22 18:55:26 dhcpcd[694]: eth0: offered 147.229.192.187 from 147.229.191.143
+2022-03-22 18:55:26 dhcpcd[694]: eth0: probing address 147.229.192.187/22
+2022-03-22 18:55:31 dhcpcd[694]: eth0: leased 147.229.192.187 for 7200 seconds
+2022-03-22 18:55:31 dhcpcd[694]: eth0: adding route to 147.229.192.0/22
+2022-03-22 18:55:32 bard[643]: backup route selected: "ETH0"
+2022-03-22 18:55:32 bard[643]: script /etc/scripts/ip-up eth0 started
+2022-03-22 18:55:32 dyndnsd[974]: DynDNS daemon started
+2022-03-22 18:55:32 hostapd: ACS: Survey is missing noise floor
+2022-03-22 18:55:32 last message repeated 4 times
+2022-03-22 18:55:32 hostapd: ACS: Channel 1 has insufficient survey data
+2022-03-22 18:55:32 hostapd: ACS: Survey is missing noise floor
+2022-03-22 18:55:32 last message repeated 4 times
+2022-03-22 18:55:32 hostapd: ACS: Channel 1 has insufficient survey data
+2022-03-22 18:55:32 hostapd: ACS: Survey is missing noise floor
+2022-03-22 18:55:32 last message repeated 4 times
+2022-03-22 18:55:32 hostapd: ACS: Channel 1 has insufficient survey data
+2022-03-22 18:55:32 hostapd: ACS: Survey is missing noise floor
+2022-03-22 18:55:32 last message repeated 4 times
+2022-03-22 18:55:32 hostapd: ACS: Channel 1 has insufficient survey data
+2022-03-22 18:55:32 hostapd: ACS: Survey is missing noise floor
+2022-03-22 18:55:32 last message repeated 4 times
+2022-03-22 18:55:32 hostapd: ACS: Channel 1 has insufficient survey data
+2022-03-22 18:55:32 hostapd: ACS: Survey is missing noise floor
+2022-03-22 18:55:32 last message repeated 4 times
+2022-03-22 18:55:32 hostapd: ACS: Channel 1 has insufficient survey data
+2022-03-22 18:55:32 hostapd: wlan0: ACS-COMPLETED freq=2412 channel=1
+2022-03-22 18:55:32 hostapd: wlan0: interface state ACS-HT_SCAN
+2022-03-22 18:55:33 bard[643]: script /etc/scripts/ip-up eth0 finished, status = 0x0
+2022-03-22 18:55:34 root: Up IPv4: starting script on interface eth0
+2022-03-22 18:55:34 root: Up IPv4: nameserver eth0 147.229.191.143
+2022-03-22 18:55:34 root: Up IPv4: gateway eth0 147.229.192.1
+2022-03-22 18:55:34 dnsmasq[822]: reading /etc/resolv.conf
+2022-03-22 18:55:34 dnsmasq[822]: using nameserver 147.229.191.143#53
+2022-03-22 18:55:34 hostapd: 20/40 MHz operation not permitted on channel pri=1 sec=5 based on overlapping BSSes
+2022-03-22 18:55:34 hostapd: Fallback to 20 MHz
+2022-03-22 18:55:35 hostapd: wlan0: interface state HT_SCAN-ENABLED
+2022-03-22 18:55:35 hostapd: wlan0: AP-ENABLED 
+2022-03-22 18:55:42 hostapd: wlan0: STA 0e:0e:6d:5f:e8:2a IEEE 802.11: authenticated
+2022-03-22 18:55:42 hostapd: wlan0: STA 0e:0e:6d:5f:e8:2a IEEE 802.11: associated (aid 1)
+2022-03-22 18:55:42 hostapd: wlan0: AP-STA-CONNECTED 0e:0e:6d:5f:e8:2a
+2022-03-22 18:55:42 hostapd: wlan0: STA 0e:0e:6d:5f:e8:2a RADIUS: starting accounting session D8AF783FCF202F10
+2022-03-22 18:55:42 hostapd: wlan0: STA 0e:0e:6d:5f:e8:2a WPA: pairwise key handshake completed (RSN)
+2022-03-22 18:55:42 hostapd: wlan0: EAPOL-4WAY-HS-COMPLETED 0e:0e:6d:5f:e8:2a
+2022-03-22 18:55:43 dhcpd-wlan0: DHCPREQUEST for 10.0.0.100 from 0e:0e:6d:5f:e8:2a via wlan0
+2022-03-22 18:55:43 dhcpd-wlan0: DHCPACK on 10.0.0.100 to 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 18:55:43 dhcpd-wlan0: DHCPREQUEST for 10.0.0.100 from 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 18:55:43 dhcpd-wlan0: DHCPACK on 10.0.0.100 to 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 18:55:48 hostapd: wlan0: STA 28:cd:c4:b7:d3:41 IEEE 802.11: authenticated
+2022-03-22 18:55:48 hostapd: wlan0: STA 28:cd:c4:b7:d3:41 IEEE 802.11: associated (aid 2)
+2022-03-22 18:55:48 hostapd: wlan0: AP-STA-CONNECTED 28:cd:c4:b7:d3:41
+2022-03-22 18:55:48 hostapd: wlan0: STA 28:cd:c4:b7:d3:41 RADIUS: starting accounting session 6243CA29E6B740BD
+2022-03-22 18:55:48 hostapd: wlan0: STA 28:cd:c4:b7:d3:41 WPA: pairwise key handshake completed (RSN)
+2022-03-22 18:55:48 dhcpd-wlan0: DHCPREQUEST for 10.0.0.101 from 28:cd:c4:b7:d3:41 via wlan0
+2022-03-22 18:55:48 hostapd: wlan0: EAPOL-4WAY-HS-COMPLETED 28:cd:c4:b7:d3:41
+2022-03-22 18:55:48 dhcpd-wlan0: DHCPACK on 10.0.0.101 to 28:cd:c4:b7:d3:41 (b04-1018a) via wlan0
+2022-03-22 18:55:48 dhcpd-wlan0: DHCPREQUEST for 10.0.0.101 from 28:cd:c4:b7:d3:41 (b04-1018a) via wlan0
+2022-03-22 18:55:48 dhcpd-wlan0: DHCPACK on 10.0.0.101 to 28:cd:c4:b7:d3:41 (b04-1018a) via wlan0
+2022-03-22 18:56:09 https: user 'root' logged in from 10.0.0.101
+2022-03-22 18:57:43 webTermd[862]: session HnDCsTcs1Z8Vq7fBPZHu timed out
+2022-03-22 19:00:44 dhcpd-wlan0: DHCPREQUEST for 10.0.0.100 from 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:00:44 dhcpd-wlan0: DHCPACK on 10.0.0.100 to 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:00:45 dhcpd-wlan0: DHCPREQUEST for 10.0.0.100 from 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:00:45 dhcpd-wlan0: DHCPACK on 10.0.0.100 to 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:00:47 dhcpd-wlan0: DHCPREQUEST for 10.0.0.100 from 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:00:47 dhcpd-wlan0: DHCPACK on 10.0.0.100 to 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:00:48 dhcpd-wlan0: DHCPREQUEST for 10.0.0.101 from 28:cd:c4:b7:d3:41 (b04-1018a) via wlan0
+2022-03-22 19:00:48 dhcpd-wlan0: DHCPACK on 10.0.0.101 to 28:cd:c4:b7:d3:41 (b04-1018a) via wlan0
+2022-03-22 19:00:51 dhcpd-wlan0: DHCPREQUEST for 10.0.0.100 from 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:00:51 dhcpd-wlan0: DHCPACK on 10.0.0.100 to 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:00:59 dhcpd-wlan0: DHCPREQUEST for 10.0.0.100 from 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:00:59 dhcpd-wlan0: DHCPACK on 10.0.0.100 to 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:01:16 dhcpd-wlan0: DHCPREQUEST for 10.0.0.100 from 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:01:16 dhcpd-wlan0: DHCPACK on 10.0.0.100 to 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:05:48 dhcpd-wlan0: DHCPREQUEST for 10.0.0.101 from 28:cd:c4:b7:d3:41 (b04-1018a) via wlan0
+2022-03-22 19:05:48 dhcpd-wlan0: DHCPACK on 10.0.0.101 to 28:cd:c4:b7:d3:41 (b04-1018a) via wlan0
+2022-03-22 19:06:18 dhcpd-wlan0: DHCPREQUEST for 10.0.0.100 from 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:06:18 dhcpd-wlan0: DHCPACK on 10.0.0.100 to 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:06:19 dhcpd-wlan0: DHCPREQUEST for 10.0.0.100 from 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:06:19 dhcpd-wlan0: DHCPACK on 10.0.0.100 to 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:06:21 dhcpd-wlan0: DHCPREQUEST for 10.0.0.100 from 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:06:21 dhcpd-wlan0: DHCPACK on 10.0.0.100 to 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:06:25 dhcpd-wlan0: DHCPREQUEST for 10.0.0.100 from 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:06:25 dhcpd-wlan0: DHCPACK on 10.0.0.100 to 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:06:33 dhcpd-wlan0: DHCPREQUEST for 10.0.0.100 from 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:06:33 dhcpd-wlan0: DHCPACK on 10.0.0.100 to 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:06:51 dhcpd-wlan0: DHCPREQUEST for 10.0.0.100 from 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:06:51 dhcpd-wlan0: DHCPACK on 10.0.0.100 to 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:10:48 dhcpd-wlan0: DHCPREQUEST for 10.0.0.101 from 28:cd:c4:b7:d3:41 (b04-1018a) via wlan0
+2022-03-22 19:10:48 dhcpd-wlan0: DHCPACK on 10.0.0.101 to 28:cd:c4:b7:d3:41 (b04-1018a) via wlan0
+2022-03-22 19:11:53 dhcpd-wlan0: DHCPREQUEST for 10.0.0.100 from 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:11:53 dhcpd-wlan0: DHCPACK on 10.0.0.100 to 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:15:48 dhcpd-wlan0: DHCPREQUEST for 10.0.0.101 from 28:cd:c4:b7:d3:41 (b04-1018a) via wlan0
+2022-03-22 19:15:48 dhcpd-wlan0: DHCPACK on 10.0.0.101 to 28:cd:c4:b7:d3:41 (b04-1018a) via wlan0
+2022-03-22 19:16:53 dhcpd-wlan0: DHCPREQUEST for 10.0.0.100 from 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:16:53 dhcpd-wlan0: DHCPACK on 10.0.0.100 to 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:20:48 dhcpd-wlan0: DHCPREQUEST for 10.0.0.101 from 28:cd:c4:b7:d3:41 (b04-1018a) via wlan0
+2022-03-22 19:20:48 dhcpd-wlan0: DHCPACK on 10.0.0.101 to 28:cd:c4:b7:d3:41 (b04-1018a) via wlan0
+2022-03-22 19:21:54 dhcpd-wlan0: DHCPREQUEST for 10.0.0.100 from 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:21:54 dhcpd-wlan0: DHCPACK on 10.0.0.100 to 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:21:55 dhcpd-wlan0: DHCPREQUEST for 10.0.0.100 from 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:21:55 dhcpd-wlan0: DHCPACK on 10.0.0.100 to 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:21:57 dhcpd-wlan0: DHCPREQUEST for 10.0.0.100 from 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:21:57 dhcpd-wlan0: DHCPACK on 10.0.0.100 to 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:22:01 dhcpd-wlan0: DHCPREQUEST for 10.0.0.100 from 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:22:01 dhcpd-wlan0: DHCPACK on 10.0.0.100 to 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:22:09 dhcpd-wlan0: DHCPREQUEST for 10.0.0.100 from 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:22:09 dhcpd-wlan0: DHCPACK on 10.0.0.100 to 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:22:24 dhcpd-wlan0: DHCPREQUEST for 10.0.0.100 from 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:22:24 dhcpd-wlan0: DHCPACK on 10.0.0.100 to 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:25:48 dhcpd-wlan0: DHCPREQUEST for 10.0.0.101 from 28:cd:c4:b7:d3:41 (b04-1018a) via wlan0
+2022-03-22 19:25:48 dhcpd-wlan0: DHCPACK on 10.0.0.101 to 28:cd:c4:b7:d3:41 (b04-1018a) via wlan0
+2022-03-22 19:27:26 dhcpd-wlan0: DHCPREQUEST for 10.0.0.100 from 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:27:26 dhcpd-wlan0: DHCPACK on 10.0.0.100 to 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:27:27 dhcpd-wlan0: DHCPREQUEST for 10.0.0.100 from 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:27:27 dhcpd-wlan0: DHCPACK on 10.0.0.100 to 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:27:29 dhcpd-wlan0: DHCPREQUEST for 10.0.0.100 from 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:27:29 dhcpd-wlan0: DHCPACK on 10.0.0.100 to 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:27:33 dhcpd-wlan0: DHCPREQUEST for 10.0.0.100 from 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:27:33 dhcpd-wlan0: DHCPACK on 10.0.0.100 to 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:27:41 dhcpd-wlan0: DHCPREQUEST for 10.0.0.100 from 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:27:41 dhcpd-wlan0: DHCPACK on 10.0.0.100 to 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:27:57 dhcpd-wlan0: DHCPREQUEST for 10.0.0.100 from 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:27:57 dhcpd-wlan0: DHCPACK on 10.0.0.100 to 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:30:48 dhcpd-wlan0: DHCPREQUEST for 10.0.0.101 from 28:cd:c4:b7:d3:41 (b04-1018a) via wlan0
+2022-03-22 19:30:48 dhcpd-wlan0: DHCPACK on 10.0.0.101 to 28:cd:c4:b7:d3:41 (b04-1018a) via wlan0
+2022-03-22 19:32:58 dhcpd-wlan0: DHCPREQUEST for 10.0.0.100 from 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:32:58 dhcpd-wlan0: DHCPACK on 10.0.0.100 to 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:32:59 dhcpd-wlan0: DHCPREQUEST for 10.0.0.100 from 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:32:59 dhcpd-wlan0: DHCPACK on 10.0.0.100 to 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:33:01 dhcpd-wlan0: DHCPREQUEST for 10.0.0.100 from 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:33:01 dhcpd-wlan0: DHCPACK on 10.0.0.100 to 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:33:05 dhcpd-wlan0: DHCPREQUEST for 10.0.0.100 from 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:33:05 dhcpd-wlan0: DHCPACK on 10.0.0.100 to 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:33:09 sudo: pam_unix(doas:session): session opened for user root by (uid=0)
+2022-03-22 19:33:09 sudo: root ran command iwlist as root from /
+2022-03-22 19:33:09 sudo: pam_unix(doas:session): session closed for user root
+2022-03-22 19:33:14 dhcpd-wlan0: DHCPREQUEST for 10.0.0.100 from 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:33:14 dhcpd-wlan0: DHCPACK on 10.0.0.100 to 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:33:28 dhcpd-wlan0: DHCPREQUEST for 10.0.0.100 from 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:33:28 dhcpd-wlan0: DHCPACK on 10.0.0.100 to 0e:0e:6d:5f:e8:2a (Matus-s-S21) via wlan0
+2022-03-22 19:34:25 https: user 'root' updated configuration of WiFi
+2022-03-22 19:34:26 hostapd: wlan0: AP-STA-DISCONNECTED 28:cd:c4:b7:d3:41
+2022-03-22 19:34:26 hostapd: Failed to set beacon parameters
+2022-03-22 19:34:26 hostapd: wlan0: AP-STA-DISCONNECTED 0e:0e:6d:5f:e8:2a
+2022-03-22 19:34:26 hostapd: Failed to set beacon parameters
+2022-03-22 19:34:26 hostapd: wlan0: INTERFACE-DISABLED 
+2022-03-22 19:34:26 hostapd: wlan0: interface state ENABLED-DISABLED
+2022-03-22 19:34:26 hostapd: wlan0: AP-DISABLED 
+2022-03-22 19:34:26 hostapd: wlan0: CTRL-EVENT-TERMINATING 
+2022-03-22 19:34:26 hostapd: nl80211: deinit ifname=wlan0 disabled_11b_rates=0
+2022-03-22 19:34:27 hostapd: started
+2022-03-22 19:34:27 hostapd: rfkill: Cannot open RFKILL control device
+2022-03-22 19:34:28 hostapd: wlan0: interface state UNINITIALIZED-COUNTRY_UPDATE
+2022-03-22 19:34:28 hostapd: wlan0: interface state COUNTRY_UPDATE-HT_SCAN
+2022-03-22 19:34:29 dhcpd-wlan0: Wrote 0 leases to leases file.
+2022-03-22 19:34:30 hostapd: 20/40 MHz operation not permitted on channel pri=8 sec=4 based on overlapping BSSes
+2022-03-22 19:34:30 hostapd: Fallback to 20 MHz
+2022-03-22 19:34:31 hostapd: wlan0: interface state HT_SCAN-ENABLED
+2022-03-22 19:34:31 hostapd: wlan0: AP-ENABLED 
+2022-03-22 19:34:35 hostapd: wlan0: STA 28:cd:c4:b7:d3:41 IEEE 802.11: authenticated
+2022-03-22 19:34:35 hostapd: wlan0: STA 28:cd:c4:b7:d3:41 IEEE 802.11: associated (aid 1)
+2022-03-22 19:34:35 hostapd: wlan0: AP-STA-CONNECTED 28:cd:c4:b7:d3:41
+2022-03-22 19:34:35 hostapd: wlan0: STA 28:cd:c4:b7:d3:41 RADIUS: starting accounting session E6621BF1385AC1E8
+2022-03-22 19:34:35 hostapd: wlan0: STA 28:cd:c4:b7:d3:41 WPA: pairwise key handshake completed (RSN)
+2022-03-22 19:34:35 hostapd: wlan0: EAPOL-4WAY-HS-COMPLETED 28:cd:c4:b7:d3:41
+2022-03-22 19:34:36 hostapd: wlan0: STA 0e:0e:6d:5f:e8:2a IEEE 802.11: authenticated
+2022-03-22 19:34:36 hostapd: wlan0: STA 0e:0e:6d:5f:e8:2a IEEE 802.11: associated (aid 2)
+2022-03-22 19:34:37 hostapd: wlan0: AP-STA-CONNECTED 0e:0e:6d:5f:e8:2a
+2022-03-22 19:34:37 hostapd: wlan0: STA 0e:0e:6d:5f:e8:2a RADIUS: starting accounting session 07B64ABA74070CF7
+2022-03-22 19:34:37 hostapd: wlan0: STA 0e:0e:6d:5f:e8:2a WPA: pairwise key handshake completed (RSN)
+2022-03-22 19:34:37 hostapd: wlan0: EAPOL-4WAY-HS-COMPLETED 0e:0e:6d:5f:e8:2a
+2022-03-22 19:34:38 dhcpd-wlan0: DHCPREQUEST for 10.0.0.101 from 28:cd:c4:b7:d3:41 via wlan0
+2022-03-22 19:34:38 dhcpd-wlan0: DHCPACK on 10.0.0.101 to 28:cd:c4:b7:d3:41 (b04-1018a) via wlan0
+2022-03-22 19:34:38 dhcpd-wlan0: DHCPREQUEST for 10.0.0.101 from 28:cd:c4:b7:d3:41 (b04-1018a) via wlan0
+2022-03-22 19:34:38 dhcpd-wlan0: DHCPACK on 10.0.0.101 to 28:cd:c4:b7:d3:41 (b04-1018a) via wlan0
