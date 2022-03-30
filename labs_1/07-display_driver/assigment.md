@@ -26,13 +26,22 @@
                         dig_o <= "0111";
 
                     when "10" =>
-                        -- WRITE YOUR CODE HERE
+                        s_hex <= data3_i;
+                        dp_o  <= dp_i(2);
+                        dig_o <= "1011";
+                        -- DEFINE ALL OUTPUTS FOR "10" HERE
 
                     when "01" =>
-                        -- WRITE YOUR CODE HERE
+                        s_hex <= data3_i;
+                        dp_o  <= dp_i(1);
+                        dig_o <= "1101";
+                        -- DEFINE ALL OUTPUTS FOR "01" HERE
 
                     when others =>
-                        -- WRITE YOUR CODE HERE
+                        s_hex <= data3_i;
+                        dp_o  <= dp_i(0);
+                        dig_o <= "0000";
+                        -- DEFINE ALL OUTPUTS FOR "00" HERE
                 end case;
             end if;
         end if;
