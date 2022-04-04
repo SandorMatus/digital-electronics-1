@@ -67,7 +67,7 @@ architecture Behavioral of driver_7seg_8digits is
     -- Internal clock enable
     signal s_en  : std_logic;
     -- Internal 2-bit counter for multiplexing 4 digits
-    signal s_cnt : std_logic_vector(1 downto 0);
+    signal s_cnt : std_logic_vector(2 downto 0);
     -- Internal 4-bit value for 7-segment decoder
     signal s_hex : std_logic_vector(1 downto 0);
 
@@ -92,7 +92,7 @@ begin
     -- down counter
     bin_cnt0 : entity work.cnt_up_down
         generic map(
-            g_CNT_WIDTH => 2
+            g_CNT_WIDTH => 3
         )
         port map(
             en_i => s_en,

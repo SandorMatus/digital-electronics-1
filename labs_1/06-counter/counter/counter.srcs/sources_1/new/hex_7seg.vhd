@@ -52,6 +52,7 @@ begin
                 seg_o <= "0010010"; -- 2
             when "11" =>
                 seg_o <= "0000110"; -- 3
+            when others =>
         end case;
     end process p_7seg_decoder;
 

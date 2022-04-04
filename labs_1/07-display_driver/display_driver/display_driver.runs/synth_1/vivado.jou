@@ -1,12 +1,13 @@
 #-----------------------------------------------------------
-# Vivado v2020.1 (64-bit)
-# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
-# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
-# Start of session at: Wed Mar 30 12:47:55 2022
-# Process ID: 3236
-# Current directory: D:/Documents/xsando03/digital-electronics-1/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.runs/synth_1
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Mon Apr  4 10:48:45 2022
+# Process ID: 13012
+# Current directory: D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.runs/synth_1
 # Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
-# Log file: D:/Documents/xsando03/digital-electronics-1/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.runs/synth_1/top.vds
-# Journal file: D:/Documents/xsando03/digital-electronics-1/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.runs/synth_1\vivado.jou
+# Log file: D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.runs/synth_1/top.vds
+# Journal file: D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.runs/synth_1\vivado.jou
+# Running On: b04-1018a, OS: Windows, CPU Frequency: 2894 MHz, CPU Physical cores: 16, Host memory: 16505 MB
 #-----------------------------------------------------------
 source top.tcl -notrace

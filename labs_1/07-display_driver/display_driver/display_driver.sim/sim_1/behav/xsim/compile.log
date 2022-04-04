@@ -1,2 +1,2 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "D:/Documents/xsando03/digital-electronics-1/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4digits.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'tb_driver_7seg_4digits'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4digits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_driver_7seg_8digits'
