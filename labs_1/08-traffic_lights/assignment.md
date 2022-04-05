@@ -1,4 +1,4 @@
-# Lab 8: Ales Pikhart
+# Lab 8: Matúš Šándor
 
 ### Traffic light controller
 
