@@ -1,0 +1,754 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Mon Apr  4 10:15:54 2022
+# Process ID: 23480
+# Current directory: D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9596 D:\semester_4\DE1\cv\digital-electronics-1\labs_1\07-display_driver\display_driver\display_driver.xpr
+# Log file: D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/vivado.log
+# Journal file: D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver\vivado.jou
+# Running On: b04-1018a, OS: Windows, CPU Frequency: 2894 MHz, CPU Physical cores: 16, Host memory: 16505 MB
+#-----------------------------------------------------------
+start_gui
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at D:/Vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at D:/Vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at D:/Vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at D:/Vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at D:/Vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at D:/Vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at D:/Vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_es:part0:1.3 available at D:/Vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/es/1.3/board.xml as part xcvc1902-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at D:/Vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at D:/Vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at D:/Vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at D:/Vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at D:/Vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at D:/Vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at D:/Vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at D:/Vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at D:/Vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at D:/Vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at D:/Vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at D:/Vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_es:part0:1.3 available at D:/Vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/es/1.3/board.xml as part xcvm1802-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at D:/Vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at D:/Vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at D:/Vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at D:/Vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at D:/Vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at D:/Vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at D:/Vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at D:/Vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at D:/Vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at D:/Vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.0 available at D:/Vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.0/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.1 available at D:/Vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.1/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.2 available at D:/Vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.2/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/Vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld_es:part0:1.0 available at D:/Vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/es/1.0/board.xml as part xczu58dr-fsvg1517-2-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at D:/Vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.0 available at D:/Vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.0/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.1 available at D:/Vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.1/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.2 available at D:/Vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.2/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/Vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld_es:part0:1.0 available at D:/Vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/es/1.0/board.xml as part xczu59dr-ffvf1760-2-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:1.0 available at D:/Vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/1.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+open_project D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver'
+INFO: [Project 1-313] Project file moved from 'D:/Documents/xsando03/digital-electronics-1/digital-electronics-1/labs_1/07-display_driver/display_driver' since last save.
+Scanning sources...
+Finished scanning sources
+CRITICAL WARNING: [Board 49-67] The board_part definition was not found for digilentinc.com:nexys-a7-50t:part0:1.0. This can happen sometimes when you use custom board part. You can resolve this issue by setting 'board.repoPaths' parameter, pointing to the location of custom board files. Valid board_part values can be retrieved with the 'get_board_parts' Tcl command.
+INFO: [Project 1-230] Project 'display_driver.xpr' upgraded for this version of Vivado.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2021.2/data/ip'.
+upgrade_project -migrate_output_products
+update_compile_order -fileset sources_1
+open_run impl_1
+CRITICAL WARNING: [Board 49-67] The board_part definition was not found for digilentinc.com:nexys-a7-50t:part0:1.0. This can happen sometimes when you use custom board part. You can resolve this issue by setting 'board.repoPaths' parameter, pointing to the location of custom board files. Valid board_part values can be retrieved with the 'get_board_parts' Tcl command.
+INFO: [Device 21-403] Loading part xc7a50ticsg324-1L
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1315.949 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2020.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Constraints 18-5435] Cannot read file, the software version for the checkpoint (2020.1.2902540) does not match the current software version (2021.2.3367213).
+  File : D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.runs/impl_1/top_routed/top.xbdc.
+Parsing XDC File [D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.runs/impl_1/top_routed/top.xdc]
+Finished Parsing XDC File [D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.runs/impl_1/top_routed/top.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.037 . Memory (MB): peak = 1427.043 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.037 . Memory (MB): peak = 1427.043 ; gain = 0.000
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1823.660 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:17 ; elapsed = 00:00:15 . Memory (MB): peak = 1935.871 ; gain = 681.914
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Mon Apr  4 10:19:53 2022] Launched synth_1...
+Run output will be captured here: D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.runs/synth_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.runs/synth_1
+
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_driver_7seg_4digits'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Vivado/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_driver_7seg_4digits' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_driver_7seg_4digits_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/semester_4/DE1/cv/digital-electronics-1/labs_1/06-counter/counter/counter.srcs/sources_1/new/clock_enable.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'clock_enable'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/semester_4/DE1/cv/digital-electronics-1/labs_1/06-counter/counter/counter.srcs/sources_1/new/cnt_up_down.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'cnt_up_down'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/semester_4/DE1/cv/digital-electronics-1/labs_1/06-counter/counter/counter.srcs/sources_1/new/hex_7seg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'hex_7seg'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'driver_7seg_4digits'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4digits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_driver_7seg_4digits'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_driver_7seg_4digits_behav xil_defaultlib.tb_driver_7seg_4digits -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_driver_7seg_4digits_behav xil_defaultlib.tb_driver_7seg_4digits -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-3311] expression has 4 elements ; formal 'hex_i' expects 2 [D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd:106]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit tb_driver_7seg_4digits in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+set_property is_enabled false [get_files  D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_driver_7seg_4digits'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Vivado/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_driver_7seg_4digits' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_driver_7seg_4digits_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_driver_7seg_4digits_behav xil_defaultlib.tb_driver_7seg_4digits -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_driver_7seg_4digits_behav xil_defaultlib.tb_driver_7seg_4digits -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-3311] expression has 4 elements ; formal 'hex_i' expects 2 [D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd:106]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit tb_driver_7seg_4digits in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+export_ip_user_files -of_objects  [get_files D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd] -no_script -reset -force -quiet
+remove_files  D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_driver_7seg_4digits'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Vivado/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_driver_7seg_4digits' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_driver_7seg_4digits_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_driver_7seg_4digits_behav xil_defaultlib.tb_driver_7seg_4digits -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_driver_7seg_4digits_behav xil_defaultlib.tb_driver_7seg_4digits -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-3311] expression has 4 elements ; formal 'hex_i' expects 2 [D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd:106]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit tb_driver_7seg_4digits in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+set_property top top [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Vivado/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj top_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_8digits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'driver_7seg_8digits'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sources_1/new/top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'top'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot top_behav xil_defaultlib.top -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot top_behav xil_defaultlib.top -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2335] case statement does not cover all choices. 'others' clause is needed [D:/semester_4/DE1/cv/digital-electronics-1/labs_1/06-counter/counter/counter.srcs/sources_1/new/hex_7seg.vhd:46]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit top in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+set_property top tb_driver_7seg_4digits [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_driver_7seg_4digits'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Vivado/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_driver_7seg_4digits' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_driver_7seg_4digits_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4digits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_driver_7seg_8digits'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_driver_7seg_4digits_behav xil_defaultlib.tb_driver_7seg_4digits -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_driver_7seg_4digits_behav xil_defaultlib.tb_driver_7seg_4digits -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-3311] expression has 4 elements ; formal 'hex_i' expects 2 [D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd:106]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit tb_driver_7seg_4digits in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 2057.988 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_driver_7seg_8digits'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Vivado/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_driver_7seg_8digits' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_driver_7seg_8digits_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_driver_7seg_8digits_behav xil_defaultlib.tb_driver_7seg_8digits -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_driver_7seg_8digits_behav xil_defaultlib.tb_driver_7seg_8digits -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-3311] expression has 4 elements ; formal 'data0_i' expects 2 [D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4digits.vhd:57]
+ERROR: [VRFC 10-3311] expression has 4 elements ; formal 'data1_i' expects 2 [D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4digits.vhd:58]
+ERROR: [VRFC 10-3311] expression has 4 elements ; formal 'data2_i' expects 2 [D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4digits.vhd:59]
+ERROR: [VRFC 10-3311] expression has 4 elements ; formal 'data3_i' expects 2 [D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4digits.vhd:60]
+ERROR: [VRFC 10-3311] expression has 4 elements ; formal 'data4_i' expects 2 [D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4digits.vhd:61]
+ERROR: [VRFC 10-3311] expression has 4 elements ; formal 'data5_i' expects 2 [D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4digits.vhd:62]
+ERROR: [VRFC 10-3311] expression has 4 elements ; formal 'data6_i' expects 2 [D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4digits.vhd:63]
+ERROR: [VRFC 10-3311] expression has 4 elements ; formal 'data7_i' expects 2 [D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4digits.vhd:64]
+ERROR: [VRFC 10-3311] expression has 4 elements ; formal 'dp_i' expects 8 [D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4digits.vhd:65]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit tb_driver_7seg_8digits in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_driver_7seg_8digits'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Vivado/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_driver_7seg_8digits' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_driver_7seg_8digits_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4digits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_driver_7seg_8digits'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_driver_7seg_8digits_behav xil_defaultlib.tb_driver_7seg_8digits -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_driver_7seg_8digits_behav xil_defaultlib.tb_driver_7seg_8digits -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2335] case statement does not cover all choices. 'others' clause is needed [D:/semester_4/DE1/cv/digital-electronics-1/labs_1/06-counter/counter/counter.srcs/sources_1/new/hex_7seg.vhd:46]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit tb_driver_7seg_8digits in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_driver_7seg_8digits'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Vivado/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_driver_7seg_8digits' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_driver_7seg_8digits_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/semester_4/DE1/cv/digital-electronics-1/labs_1/06-counter/counter/counter.srcs/sources_1/new/hex_7seg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'hex_7seg'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_8digits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'driver_7seg_8digits'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4digits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_driver_7seg_8digits'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_driver_7seg_8digits_behav xil_defaultlib.tb_driver_7seg_8digits -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_driver_7seg_8digits_behav xil_defaultlib.tb_driver_7seg_8digits -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-494] choice "000" should have 2 elements [D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_8digits.vhd:129]
+ERROR: [VRFC 10-494] choice "001" should have 2 elements [D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_8digits.vhd:134]
+ERROR: [VRFC 10-494] choice "011" should have 2 elements [D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_8digits.vhd:139]
+ERROR: [VRFC 10-494] choice "010" should have 2 elements [D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_8digits.vhd:144]
+ERROR: [VRFC 10-494] choice "110" should have 2 elements [D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_8digits.vhd:149]
+ERROR: [VRFC 10-494] choice "100" should have 2 elements [D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_8digits.vhd:154]
+ERROR: [VRFC 10-494] choice "111" should have 2 elements [D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_8digits.vhd:160]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit tb_driver_7seg_8digits in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_driver_7seg_8digits'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Vivado/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_driver_7seg_8digits' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_driver_7seg_8digits_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/semester_4/DE1/cv/digital-electronics-1/labs_1/06-counter/counter/counter.srcs/sources_1/new/hex_7seg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'hex_7seg'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_8digits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'driver_7seg_8digits'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4digits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_driver_7seg_8digits'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_driver_7seg_8digits_behav xil_defaultlib.tb_driver_7seg_8digits -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_driver_7seg_8digits_behav xil_defaultlib.tb_driver_7seg_8digits -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2335] case statement does not cover all choices. 'others' clause is needed [D:/semester_4/DE1/cv/digital-electronics-1/labs_1/06-counter/counter/counter.srcs/sources_1/new/hex_7seg.vhd:46]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit tb_driver_7seg_8digits in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_driver_7seg_8digits'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Vivado/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_driver_7seg_8digits' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_driver_7seg_8digits_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/semester_4/DE1/cv/digital-electronics-1/labs_1/06-counter/counter/counter.srcs/sources_1/new/hex_7seg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'hex_7seg'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_8digits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'driver_7seg_8digits'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4digits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_driver_7seg_8digits'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_driver_7seg_8digits_behav xil_defaultlib.tb_driver_7seg_8digits -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_driver_7seg_8digits_behav xil_defaultlib.tb_driver_7seg_8digits -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-494] choice "000" should have 2 elements [D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_8digits.vhd:129]
+ERROR: [VRFC 10-494] choice "001" should have 2 elements [D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_8digits.vhd:134]
+ERROR: [VRFC 10-494] choice "011" should have 2 elements [D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_8digits.vhd:139]
+ERROR: [VRFC 10-494] choice "010" should have 2 elements [D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_8digits.vhd:144]
+ERROR: [VRFC 10-494] choice "110" should have 2 elements [D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_8digits.vhd:149]
+ERROR: [VRFC 10-494] choice "100" should have 2 elements [D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_8digits.vhd:154]
+ERROR: [VRFC 10-494] choice "111" should have 2 elements [D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_8digits.vhd:160]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit tb_driver_7seg_8digits in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_driver_7seg_8digits'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Vivado/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_driver_7seg_8digits' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_driver_7seg_8digits_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_8digits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'driver_7seg_8digits'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4digits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_driver_7seg_8digits'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_driver_7seg_8digits_behav xil_defaultlib.tb_driver_7seg_8digits -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_driver_7seg_8digits_behav xil_defaultlib.tb_driver_7seg_8digits -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-494] choice "000" should have 2 elements [D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_8digits.vhd:129]
+ERROR: [VRFC 10-494] choice "001" should have 2 elements [D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_8digits.vhd:134]
+ERROR: [VRFC 10-494] choice "011" should have 2 elements [D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_8digits.vhd:139]
+ERROR: [VRFC 10-494] choice "010" should have 2 elements [D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_8digits.vhd:144]
+ERROR: [VRFC 10-494] choice "110" should have 2 elements [D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_8digits.vhd:149]
+ERROR: [VRFC 10-494] choice "100" should have 2 elements [D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_8digits.vhd:154]
+ERROR: [VRFC 10-494] choice "111" should have 2 elements [D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_8digits.vhd:160]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit tb_driver_7seg_8digits in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_driver_7seg_8digits'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Vivado/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_driver_7seg_8digits' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_driver_7seg_8digits_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_8digits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'driver_7seg_8digits'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4digits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_driver_7seg_8digits'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_driver_7seg_8digits_behav xil_defaultlib.tb_driver_7seg_8digits -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_driver_7seg_8digits_behav xil_defaultlib.tb_driver_7seg_8digits -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-494] choice "000" should have 2 elements [D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_8digits.vhd:129]
+ERROR: [VRFC 10-494] choice "001" should have 2 elements [D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_8digits.vhd:134]
+ERROR: [VRFC 10-494] choice "011" should have 2 elements [D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_8digits.vhd:139]
+ERROR: [VRFC 10-494] choice "010" should have 2 elements [D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_8digits.vhd:144]
+ERROR: [VRFC 10-494] choice "110" should have 2 elements [D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_8digits.vhd:149]
+ERROR: [VRFC 10-494] choice "100" should have 2 elements [D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_8digits.vhd:154]
+ERROR: [VRFC 10-494] choice "111" should have 2 elements [D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_8digits.vhd:160]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit tb_driver_7seg_8digits in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_driver_7seg_8digits'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Vivado/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_driver_7seg_8digits' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_driver_7seg_8digits_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_8digits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'driver_7seg_8digits'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4digits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_driver_7seg_8digits'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_driver_7seg_8digits_behav xil_defaultlib.tb_driver_7seg_8digits -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_driver_7seg_8digits_behav xil_defaultlib.tb_driver_7seg_8digits -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-3311] expression has 3 elements ; formal 'cnt_o' expects 2 [D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_8digits.vhd:102]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit tb_driver_7seg_8digits in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_driver_7seg_8digits'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Vivado/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_driver_7seg_8digits' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_driver_7seg_8digits_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_8digits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'driver_7seg_8digits'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4digits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_driver_7seg_8digits'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_driver_7seg_8digits_behav xil_defaultlib.tb_driver_7seg_8digits -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_driver_7seg_8digits_behav xil_defaultlib.tb_driver_7seg_8digits -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-664] expression has 4 elements ; expected 2 [D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4digits.vhd:102]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit tb_driver_7seg_8digits in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_driver_7seg_8digits'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Vivado/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_driver_7seg_8digits' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_driver_7seg_8digits_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4digits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_driver_7seg_8digits'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_driver_7seg_8digits_behav xil_defaultlib.tb_driver_7seg_8digits -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_driver_7seg_8digits_behav xil_defaultlib.tb_driver_7seg_8digits -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-664] expression has 4 elements ; expected 2 [D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4digits.vhd:102]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit tb_driver_7seg_8digits in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_driver_7seg_8digits'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Vivado/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_driver_7seg_8digits' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_driver_7seg_8digits_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4digits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_driver_7seg_8digits'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_driver_7seg_8digits_behav xil_defaultlib.tb_driver_7seg_8digits -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_driver_7seg_8digits_behav xil_defaultlib.tb_driver_7seg_8digits -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-664] expression has 4 elements ; expected 2 [D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4digits.vhd:103]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit tb_driver_7seg_8digits in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_driver_7seg_8digits'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/Vivado/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_driver_7seg_8digits' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_driver_7seg_8digits_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4digits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_driver_7seg_8digits'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_driver_7seg_8digits_behav xil_defaultlib.tb_driver_7seg_8digits -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_driver_7seg_8digits_behav xil_defaultlib.tb_driver_7seg_8digits -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.clock_enable [\clock_enable(g_max=800000)\]
+Compiling architecture behavioral of entity xil_defaultlib.cnt_up_down [\cnt_up_down(g_cnt_width=3)\]
+Compiling architecture behavioral of entity xil_defaultlib.hex_7seg [hex_7seg_default]
+Compiling architecture behavioral of entity xil_defaultlib.driver_7seg_8digits [driver_7seg_8digits_default]
+Compiling architecture testbench of entity xil_defaultlib.tb_driver_7seg_8digits
+Built simulation snapshot tb_driver_7seg_8digits_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_driver_7seg_8digits_behav -key {Behavioral:sim_1:Functional:tb_driver_7seg_8digits} -tclbatch {tb_driver_7seg_8digits.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_driver_7seg_8digits.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Note: Stimulus procces ended
+Time: 0 ps  Iteration: 0  Process: /tb_driver_7seg_8digits/p_stimulus  File: D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4digits.vhd
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_driver_7seg_8digits_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 2082.652 ; gain = 24.664
+launch_runs impl_1 -jobs 8
+[Mon Apr  4 10:48:37 2022] Launched synth_1...
+Run output will be captured here: D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.runs/synth_1/runme.log
+[Mon Apr  4 10:48:37 2022] Launched impl_1...
+Run output will be captured here: D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.runs/impl_1/runme.log
+close_design
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+open_run impl_1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2107.516 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2021.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.036 . Memory (MB): peak = 2111.465 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.036 . Memory (MB): peak = 2111.465 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2111.465 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Apr  4 10:54:12 2022...

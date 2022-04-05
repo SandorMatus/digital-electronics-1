@@ -1,0 +1,61 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Mon Apr  4 10:15:54 2022
+# Process ID: 23480
+# Current directory: D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9596 D:\semester_4\DE1\cv\digital-electronics-1\labs_1\07-display_driver\display_driver\display_driver.xpr
+# Log file: D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/vivado.log
+# Journal file: D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver\vivado.jou
+# Running On: b04-1018a, OS: Windows, CPU Frequency: 2894 MHz, CPU Physical cores: 16, Host memory: 16505 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.xpr
+upgrade_project -migrate_output_products
+update_compile_order -fileset sources_1
+open_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+launch_simulation
+set_property is_enabled false [get_files  D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd]
+launch_simulation
+export_ip_user_files -of_objects  [get_files D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd] -no_script -reset -force -quiet
+remove_files  D:/semester_4/DE1/cv/digital-electronics-1/labs_1/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd
+launch_simulation
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top top [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_driver_7seg_4digits [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source tb_driver_7seg_8digits.tcl
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+close_design
+close_sim
+open_run impl_1
