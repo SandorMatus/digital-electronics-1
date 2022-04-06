@@ -39,6 +39,8 @@ entity top is
            LED17_R : out STD_LOGIC;
            LED17_G : out STD_LOGIC;
            LED17_B : out STD_LOGIC;
+           BTNU : in STD_LOGIC;
+           BTND : in STD_LOGIC;
            BTNC : in STD_LOGIC);
 end top;
 
@@ -54,6 +56,8 @@ begin
         port map(
             clk   => CLK100MHZ,
             reset => BTNC,
+            sensor1 => BTNU,
+            sensor2 => BTND,
             south_o(0) => LED16_B,
             south_o(1) => LED16_G,
             south_o(2) => LED16_R,
