@@ -36,7 +36,7 @@
                             s_cnt <= s_cnt + 1;
                         else
                             -- Move to the next state
-                            s_state <= WEST_GO;
+                            s_state <= WEST_WAIT;
                             -- Reset local counter value
                             s_cnt <= c_ZERO;
                         end if;
@@ -44,9 +44,12 @@
                     when WEST_GO =>
                         if (s_cnt < c_DELAY_4SEC) then
                             s_cnt <= s_cnt + 1;
+                            if(sensor1 = '1') then --sensor automobilu SOUTH
+                            s_cnt <= c_DELAY_4SEC;
+                            end if;
                         else
                             -- Move to the next state
-                            s_state <= WEST_WAIT;
+                            s_state <= STOP2;
                             -- Reset local counter value
                             s_cnt <= c_ZERO;
                         end if;
@@ -55,7 +58,7 @@
                             s_cnt <= s_cnt + 1;
                         else
                             -- Move to the next state
-                            s_state <= STOP2;
+                            s_state <= WEST_GO;
                             -- Reset local counter value
                             s_cnt <= c_ZERO;
                         end if;
@@ -64,16 +67,19 @@
                             s_cnt <= s_cnt + 1;
                         else
                             -- Move to the next state
-                            s_state <= SOUTH_GO;
+                            s_state <= SOUTH_WAIT;
                             -- Reset local counter value
                             s_cnt <= c_ZERO;
                         end if;
                     when SOUTH_GO =>
                         if (s_cnt < c_DELAY_4SEC) then
                             s_cnt <= s_cnt + 1;
+                            if(sensor2 = '1') then --sensor automobilu WEST
+                            s_cnt <= c_DELAY_4SEC;
+                            end if;
                         else
                             -- Move to the next state
-                            s_state <= SOUTH_WAIT;
+                            s_state <= STOP1;
                             -- Reset local counter value
                             s_cnt <= c_ZERO;
                         end if;
@@ -82,11 +88,10 @@
                             s_cnt <= s_cnt + 1;
                         else
                             -- Move to the next state
-                            s_state <= STOP1;
+                            s_state <= SOUTH_GO;
                             -- Reset local counter value
                             s_cnt <= c_ZERO;
                         end if;
-
 
                     -- It is a good programming practice to use the 
                     -- OTHERS clause, even if all CASE choices have 
@@ -102,4 +107,4 @@
 
 3. Screenshot with simulated time waveforms. The full functionality of the entity must be verified. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
-   ![your figure](images/waveform.PNG)
+   ![graf](images/graf1.png)

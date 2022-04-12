@@ -28,6 +28,8 @@ entity tlc is
     port(
         clk     : in  std_logic;
         reset   : in  std_logic;
+        sensor1 : in  std_logic;
+        sensor2 : in  std_logic;
         -- Traffic lights (RGB LEDs) for two directions
         south_o : out std_logic_vector(3 - 1 downto 0);
         west_o  : out std_logic_vector(3 - 1 downto 0)
@@ -63,7 +65,7 @@ architecture Behavioral of tlc is
 
     -- Output values
     constant c_RED        : std_logic_vector(2 downto 0) := b"100";
-    constant c_YELLOW     : std_logic_vector(2 downto 0) := b"111";
+    constant c_YELLOW     : std_logic_vector(2 downto 0) := b"001";
     constant c_GREEN      : std_logic_vector(2 downto 0) := b"010";
 
 begin
@@ -73,8 +75,6 @@ begin
     -- an enable pulse every 250 ms (4 Hz). Remember that 
     -- the frequency of the clock signal is 100 MHz.
  --       clk_en0 : entity work.clock_enable
- 
- --PAK ODSTRANIT CARKY A JE TAM CLOCK ENABLE
  
  --       generic map(
  --           g_MAX => 4
@@ -125,7 +125,7 @@ begin
                             s_cnt <= s_cnt + 1;
                         else
                             -- Move to the next state
-                            s_state <= WEST_GO;
+                            s_state <= WEST_WAIT;
                             -- Reset local counter value
                             s_cnt <= c_ZERO;
                         end if;
@@ -133,9 +133,12 @@ begin
                     when WEST_GO =>
                         if (s_cnt < c_DELAY_4SEC) then
                             s_cnt <= s_cnt + 1;
+                            if(sensor1 = '1') then --sensor automobilu SOUTH
+                            s_cnt <= c_DELAY_4SEC;
+                            end if;
                         else
                             -- Move to the next state
-                            s_state <= WEST_WAIT;
+                            s_state <= STOP2;
                             -- Reset local counter value
                             s_cnt <= c_ZERO;
                         end if;
@@ -144,7 +147,7 @@ begin
                             s_cnt <= s_cnt + 1;
                         else
                             -- Move to the next state
-                            s_state <= STOP2;
+                            s_state <= WEST_GO;
                             -- Reset local counter value
                             s_cnt <= c_ZERO;
                         end if;
@@ -153,16 +156,19 @@ begin
                             s_cnt <= s_cnt + 1;
                         else
                             -- Move to the next state
-                            s_state <= SOUTH_GO;
+                            s_state <= SOUTH_WAIT;
                             -- Reset local counter value
                             s_cnt <= c_ZERO;
                         end if;
                     when SOUTH_GO =>
                         if (s_cnt < c_DELAY_4SEC) then
                             s_cnt <= s_cnt + 1;
+                            if(sensor2 = '1') then --sensor automobilu WEST
+                            s_cnt <= c_DELAY_4SEC;
+                            end if;
                         else
                             -- Move to the next state
-                            s_state <= SOUTH_WAIT;
+                            s_state <= STOP1;
                             -- Reset local counter value
                             s_cnt <= c_ZERO;
                         end if;
@@ -171,7 +177,7 @@ begin
                             s_cnt <= s_cnt + 1;
                         else
                             -- Move to the next state
-                            s_state <= STOP1;
+                            s_state <= SOUTH_GO;
                             -- Reset local counter value
                             s_cnt <= c_ZERO;
                         end if;
